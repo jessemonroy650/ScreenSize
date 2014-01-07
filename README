@@ -1,4 +1,4 @@
-= Screen Size Reporting
+= Screen Size Reporting =
 Date: 2014-01-06
 
 Reports the Screen size via browser DOM and Javascript. It also uses JQuery to report what it knows.
