@@ -5,4 +5,5 @@ Reports the Screen size via browser DOM and Javascript. It also uses JQuery to r
 
 This works for both Android Mobile Devices (phone and Tables) and Desktop
 
-Source code available on GitHub
+Source code available on GitHub:
+https://github.com/jessemonroy650/ScreenSize
