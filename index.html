@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Test of Screen Size Reporting</title>
+  <meta http-equiv=content-type content="text/html; charset=iso-8859-1">
+  <SCRIPT type="text/javascript" SRC="jquery-1.10.2.js"></SCRIPT>
+<style>
+* {padding:0;margin:0;}
+html {padding:0;margin:0;}
+body {padding:0;margin:0;margin-top:0;}
+li {list-style-type:none;padding:0.25em;margin:0;}
+dd {padding:0.25em;margin:0;}
+p {clear:both;}
+</style>
+</head>
+<body>
+<h1>Test of Screen Size Reporting v1.0</h1>
+<big><b>NOTE:</b></big> Some rendering engines do 
+<big><b><i><u>NOT</u></i></b></big>
+follow margin rules.
+<p />
+<i>*, html,</i> and <i>body</i> are set to margin:0 and padding:0
+<h2>Browser Reporting</h2>
+
+<ul>
+<li> (Navigator) Version Info=<span id=navver></span>
+</ul>
+
+<ul>
+<li> document.width=<span id=dw></span>
+<li> document.body.clientWidth=<span id=dbc></span>
+<li> document.documentElement.clientWidth=<span id=ddc></span>
+</ul>
+&nbsp;
+<ul>
+<li> window.screen.width=<span id=wsw></span>
+<li> window.screen.height=<span id=wsh></span>
+</ul>
+&nbsp;
+<ul>
+<li> window.innerWidth=<span id=wiw></span>
+<li> window.innerHeight=<span id=wih></span>
+<li> window.outerWidth=<span id=wow></span>
+<li> window.outerHeight=<span id=woh></span>
+</ul>
+
+<h2>jquery</h2>
+<ul>
+<li> JQuery version is: <span id=jquery></span>
+</ul>
+&nbsp;
+<ul>
+<li> $(window).innerWidth=<span id=jqwiw></span>
+<li> $(window).innerHeight=<span id=jqwih></span>
+<li> $(window).outerWidth=<span id=jqwow></span>
+<li> $(window).outerHeight=<span id=jqwoh></span>
+</ul>
+
+<p />&nbsp;<p />
+<b>SEE ALSO</b>:
+<p />
+
+<dl>
+<dt> Mobile
+<dd> http://www.quirksmode.org/mobile/
+
+<dt> Screen Size tests
+<dd> http://www.quirksmode.org/m/tests/widthtest.html
+
+<dt> test of media queries
+<dd> http://www.quirksmode.org/m/tests/mediaqueries.html
+
+<dt> Browser compatibility — viewports
+<dd> http://www.quirksmode.org/mobile/tableViewport.html
+
+<dt> A tale of two viewports
+<dd> http://www.quirksmode.org/mobile/viewports.html
+<dd> http://www.quirksmode.org/mobile/viewports2.html
+
+</dl>
+
+</body>
+<script>
+    function updateScreenVar(id, val) {
+	    document.getElementById(id).innerHTML = val;
+    }
+
+    /* Web API */
+	var navver = navigator.appVersion;
+    var dw  = document.width;                         /* Mozilla says 'obsolete' */
+    var dbc = document.body.clientWidth;              /* width of <body> */
+    var ddc = document.documentElement.clientWidth;   /* width of <html> */
+
+    var wsw = window.screen.width;
+    var wsh = window.screen.height;
+    var wiw = window.innerWidth;
+    var wow = window.outerWidth;
+    var wih = window.innerHeight;
+    var woh = window.outerHeight;
+
+	updateScreenVar('navver', navver);
+	updateScreenVar('dw', dw);
+
+	updateScreenVar('dw', dw);
+	updateScreenVar('dbc', dbc);
+	updateScreenVar('ddc', ddc);
+
+	updateScreenVar('wsh', wsh);
+	updateScreenVar('wsw', wsw);
+
+	updateScreenVar('wiw', wiw);
+	updateScreenVar('wow', wow);
+	updateScreenVar('wih', wih);
+	updateScreenVar('woh', woh);
+
+	updateScreenVar('jquery', $.fn.jquery);
+
+    var jqwiw = $(window).innerWidth();
+    var jqwih = $(window).innerHeight();
+    var jqwow = $(window).outerWidth();
+    var jqwoh = $(window).outerHeight();
+
+	updateScreenVar('jqwiw', jqwiw);
+	updateScreenVar('jqwih', jqwih);
+	updateScreenVar('jqwow', jqwow);
+	updateScreenVar('jqwoh', jqwoh);
+
+
+</script>
+
+</html>
+

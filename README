@@ -1,0 +1,8 @@
+= Screen Size Reporting
+Date: 2014-01-06
+
+Reports the Screen size via browser DOM and Javascript. It also uses JQuery to report what it knows.
+
+This works for both Android Mobile Devices (phone and Tables) and Desktop
+
+Source code available on GitHub
