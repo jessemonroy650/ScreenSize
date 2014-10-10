@@ -7,3 +7,10 @@ This works for both Android Mobile Devices (phone and Tables) and Desktop
 
 Source code available on GitHub:
 https://github.com/jessemonroy650/ScreenSize
+
+== Files ==
+AndroidManifest.xml - Old App manifest (not needed, example only) 
+config.xml - manifest for phonegapbuild
+index.html - the main file
+jquery-1.10.2.js - supporting library
+README - this file
