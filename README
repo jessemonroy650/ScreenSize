@@ -8,8 +8,10 @@ This works for both Android Mobile Devices (phone and Tables) and Desktop
 Source code available on GitHub:
 https://github.com/jessemonroy650/ScreenSize
 
+This App was created with PhoneGapBuild, but does not require phonegap.js.
+
 == Files ==
-AndroidManifest.xml - Old App manifest (not needed, example only) 
+AndroidManifest.xml - Android manifest
 config.xml - manifest for phonegapbuild
 index.html - the main file
 jquery-1.10.2.js - supporting library
