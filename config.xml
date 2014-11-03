@@ -3,32 +3,21 @@
 
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "com.didgood.screensize"
-        version     = "1.0.1"
+        version     = "1.1"
         versionCode = "10" >
 
         <!-- versionCode is optional and Android only -->
 
         <preference name="phonegap-version" value="3.5.0" />
 
-        <name>ScreenSize 1.01</name>
+        <name>ScreenSize 1.1</name>
 
         <description>
-         A Simple app that reports the screen size. It uses native call and JQuery.
+         A Simple app that reports the screen size. It uses native calls and JQuery.
         </description>
 
-        <author href="http://yoursite.com" email="jessemonroy650@yahoo.com">
+        <author href="http://didgood.com" email="jessemonroy650@yahoo.com">
         Jesse Monroy
         </author>
         <gap:plugin name="org.apache.cordova.device" />
-
-<gap:plugin name="org.apache.cordova.file-transfer" version="0.4.6" />
-<gap:plugin name="org.apache.cordova.file" version="1.3.1" />
-<gap:plugin name="org.apache.cordova.media" version="0.2.13" />
-<gap:plugin name="org.apache.cordova.media-capture" version="0.3.3" />
-<gap:plugin name="org.apache.cordova.device-motion" version="0.2.10" />
-<gap:plugin name="org.apache.cordova.device-orientation" version="0.3.9" />
-<gap:plugin name="org.apache.cordova.geolocation" version="0.3.10" />
-<gap:plugin name="org.apache.cordova.splashscreen" version="0.3.3" />
-<gap:plugin name="org.apache.cordova.network-information" version="0.2.12" />
-
     </widget>
