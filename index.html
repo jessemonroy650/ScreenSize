@@ -62,6 +62,16 @@ follow margin rules.
 <li> $(window).outerHeight=<span id=jqwoh></span>
 </ul>
 
+<p />&nbsp; <p />
+<h2>Cordova Reporting</h2>
+<ul>
+<li> device.cordova=<span id=dcv></span>
+<li> device.model=<span id=dmod></span>
+<li> device.platform=<span id=dplat></span>
+<li> device.uuid=<span id=duu></span>
+<li> device.version=<span id=dver></span>
+</ul>
+
 <p />&nbsp;<p />
 <b>SOURCE:</b><p>
 https://github.com/jessemonroy650/ScreenSize
@@ -134,6 +144,12 @@ https://github.com/jessemonroy650/ScreenSize
 	updateScreenVar('jqwow', jqwow);
 	updateScreenVar('jqwoh', jqwoh);
 
+    // Done last so if it fails, its' only on the cordova portion.
+	updateScreenVar('dcv', device.cordova);
+	updateScreenVar('dmod', device.model);
+	updateScreenVar('dplat', device.platform);
+	updateScreenVar('duu', device.uuid);
+	updateScreenVar('dver', device.version);
 
 </script>
 
