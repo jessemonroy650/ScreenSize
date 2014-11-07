@@ -16,8 +16,16 @@
          A Simple app that reports the screen size. It uses native calls and JQuery.
         </description>
 
-        <author href="http://didgood.com" email="jessemonroy650@yahoo.com">
+        <author href="http://bsdmasterindex.com" email="jessemonroy650@yahoo.com">
         Jesse Monroy
         </author>
-        <gap:plugin name="org.apache.cordova.device" />
+        <gap:platform name="android" />
+
+        <icon src="res/drawable-ldpi/icon.png" gap:platform="android" gap:qualifier="ldpi" />
+        <icon src="res/drawable-mdpi/icon.png" gap:platform="android" gap:qualifier="mdpi" />
+        <icon src="res/drawable-hdpi/icon.png" gap:platform="android" gap:qualifier="hdpi" />
+        <icon src="res/drawable-xhdpi/icon.png" gap:platform="android" gap:qualifier="xhdpi" />
+
+        <preference name="permissions" value="none"/>
+
     </widget>
