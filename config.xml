@@ -20,7 +20,7 @@
         Jesse Monroy
         </author>
         <gap:platform name="android" />
-        <gap:platform name="ios" />
+<!--        <gap:platform name="ios" /> i no longer have an iOS developer's key -->
 
         <icon src="res/drawable-ldpi/icon.png" gap:platform="android" gap:qualifier="ldpi" />
         <icon src="res/drawable-mdpi/icon.png" gap:platform="android" gap:qualifier="mdpi" />
