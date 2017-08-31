@@ -1,6 +1,8 @@
 = Screen Size Reporting =
 Date: 2014-01-06
 
+version 1.3 - updated to Phonegap cli-6.0.0
+
 Reports the Screen size via browser DOM and Javascript. It also uses JQuery to report what it knows.
 
 This works for both Android Mobile Devices (phone and Tables) and Desktop

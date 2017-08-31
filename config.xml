@@ -3,14 +3,14 @@
 
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "com.didgood.screensize"
-        version     = "1.2"
+        version     = "1.3"
         versionCode = "10" >
 
         <!-- versionCode is optional and Android only -->
 
-        <preference name="phonegap-version" value="3.5.0" />
+        <preference name="phonegap-version" value="cli-6.0.0" />
 
-        <name>ScreenSize 1.2</name>
+        <name>ScreenSize 1.3</name>
 
         <description>
          A Simple app that reports the screen size. It uses native calls and JQuery.
