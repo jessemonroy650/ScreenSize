@@ -1,19 +1,20 @@
 = Screen Size Reporting =
 Date: 2014-01-06
 
-version 1.3 - updated to Phonegap cli-6.0.0
+version 1.3.1 - 2017-08-31  - Renamed repository. Removed unneeded AndroidManifest.xml.
+version 1.3   - 2017-09-01  - updated to Phonegap cli-6.0.0
 
 Reports the Screen size via browser DOM and Javascript. It also uses JQuery to report what it knows.
 
 This works for both Android Mobile Devices (phone and Tables) and Desktop
 
 Source code available on GitHub:
-https://github.com/jessemonroy650/ScreenSize
+https://github.com/jessemonroy650/phonegap-screensize
+~~https://github.com/jessemonroy650/ScreenSize~~
 
 This App was created with PhoneGapBuild, but does not require phonegap.js.
 
 == Files ==
-AndroidManifest.xml - Android manifest
 config.xml - manifest for phonegapbuild
 index.html - the main file
 jquery-1.10.2.js - supporting library
