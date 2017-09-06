@@ -1,4 +1,4 @@
-= Screen Size Reporting =
+## Screen Size Reporting 
 Date: 2014-01-06
 
 version 1.3.1 - 2017-08-31  - Renamed repository. Removed unneeded AndroidManifest.xml.
@@ -10,7 +10,7 @@ This works for both Android Mobile Devices (phone and Tables) and Desktop
 
 Source code available on GitHub:
 https://github.com/jessemonroy650/phonegap-screensize
-~~https://github.com/jessemonroy650/ScreenSize~~
+ ~~https://github.com/jessemonroy650/ScreenSize~~
 
 This App was created with PhoneGapBuild, but does not require phonegap.js.
 
